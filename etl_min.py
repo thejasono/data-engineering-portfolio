@@ -26,3 +26,5 @@ with psycopg.connect("dbname=mydb user=myuser password=mypassword host=localhost
                 (row.userId, row.id, row.title),
             )
     # commit happens when the 'with conn' block exits
+
+
